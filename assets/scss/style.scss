@@ -1,0 +1,128 @@
+.section {
+  &__body {
+  }
+
+  &__title {
+    font-family: Comfortaa;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 42px;
+    margin-bottom: 50px;
+  }
+
+  &__cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+     }
+
+  &__card {
+    box-shadow: 2px 3px 20px 0px #00000014;
+    border-radius: 15px;
+    flex: 0 0 270px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+  &__card-wrap {
+    flex: 0 0 253px;
+    overflow: hidden;
+  }
+
+  &__card-img {
+      width: 100%;
+      height: 100%;
+  }
+
+  // .section__card-bottom
+
+  &__card-bottom {
+    background-color: #f8f0ef;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0 0 15px 15px;
+    padding: 25px 20px 0px 21px;
+   gap: 19px;
+   height: 100%;
+  }
+
+
+  &__card-title {
+    font-family: Montserrat Alternates;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    max-width: 200px;
+    flex: 1 1 auto;
+  }
+
+  // .section__card-footer
+
+  &__card-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+      gap: 10px;
+  }
+
+  // .section__card-price
+
+  &__card-price {
+    font-family: Comfortaa;
+    font-size: 15px;
+    line-height: 17px;
+    text-decoration: line-through;
+    color: gray;
+  }
+
+  // .section__card-btn
+
+  &__card-btn {
+    font-family: Montserrat Alternates;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 19px;
+    color: white;
+    background: linear-gradient(180deg, #ff7b9b 0%, #c8162c 126.51%);
+    border-radius: 5px;
+      flex: 0 0 110px;
+      padding: 7px 22px;
+  }
+
+  &__card-info {
+    display: flex;
+    margin-top: 12px;
+    margin-bottom: 11px;
+    flex-direction: column;
+  }
+
+  .section__card-info li {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #f2d4ff;
+    padding: 5px 0;
+    align-items: center;
+    gap: 5px;
+  }
+
+  &__card-right {
+    font-family: Montserrat;
+    font-size: 12px;
+    line-height: 14.63px;
+    text-align: right;
+    border-top: 1px solid #f2d4ff;
+  }
+
+  &__card-left {
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.63px;
+    text-align: left;
+    color: #b2968d;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 100px;
+  }
+}
