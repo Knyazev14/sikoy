@@ -1,0 +1,14 @@
+.section {
+    
+  &__brands-inner {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    justify-content: space-between;
+  }
+  &__brands-inner img {
+    flex: 0 0 170px;
+    object-fit: contain;
+    object-position: center;
+  }
+}

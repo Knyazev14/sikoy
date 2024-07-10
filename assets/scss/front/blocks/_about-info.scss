@@ -1,0 +1,29 @@
+.section {
+
+  &__about-text {
+    font-family: Montserrat Alternates;
+    font-size: 15px;
+    line-height: 21px;
+    max-width: 600px;
+    margin-bottom: 10px;
+  }
+  &__about-texts {
+    font-family: Montserrat Alternates;
+    font-size: 15px;
+    line-height: 21px;
+  }
+  &__about-img {
+    max-width: 370px;
+    width: 100%;
+    object-fit: contain;
+    height: 495px;
+    position: absolute;
+    right: 0;
+    transition: transform 0.5s;
+  }
+
+  &__about-img:hover {
+    transform: scale(1.1);
+  }
+  
+}

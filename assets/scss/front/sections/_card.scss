@@ -1,0 +1,17 @@
+.section {
+    
+  &__title {
+    font-family: Comfortaa;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 42px;
+    margin-top: 50px;
+  }
+
+  &__cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-bottom: 150px;
+  }
+}

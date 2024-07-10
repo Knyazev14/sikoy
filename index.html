@@ -9,57 +9,113 @@
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
   <body>
-    <header class="header">
-      <div class="container">
-        <div class="header__wrapper">
-          <div class="header__wrapper-left">
-            <div class="wrapper__menu"></div>
-            <div class="wrapper__search"></div>
-          </div>
-          <div class="header__wrapper-center">
-            <div class="wrapper__inst"></div>
-            <div class="wrapper__logo"></div>
-            <div class="wrapper__vk"></div>
-          </div>
-          <div class="header__wrapper-right">
-            <div class="wrapper__adress"></div>
-            <div class="header__wrapper-icons">
-              <div class="wrapper__profile"></div>
-              <div class="wrapper__cart"></div>
+    <div class="wrapper">
+      <header class="header">
+        <div class="container">
+          <div class="header__wrapper">
+            <div class="header__wrapper-left">
+              <div class="wrapper__menu">
+                <a href="№">Меню</a>
+              </div>
+              <div class="wrapper__search">
+                <input class="header__search-input" placeholder="Поиск"  type="search">
+              </div>
+            </div>
+            <div class="header__wrapper-center">
+              <div class="wrapper__inst"><img src="assets/img/header/inst.svg" alt=""></div>
+              <div class="wrapper__logo"><img src="assets/img/header/Logo.svg" alt=""></div>
+              <div class="wrapper__vk"><img src="assets/img/header/vk-fill.svg" alt=""></div>
+            </div>
+            <div class="header__wrapper-right">
+              <div class="wrapper__adress"> 
+                <a class="wrapper__adress-style" href="#">
+                  <img src="assets/img/header/Vector 456.svg" alt="">
+                  Адреса и телефон
+              </a>
+              </div>
+              <div class="header__wrapper-icons">
+                <div class="wrapper__profile"><img src="assets/img/header/profile.svg" alt=""></div>
+                <div class="wrapper__cart"><img src="assets/img/header/cart.svg" alt=""></div>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </header>
+      </header>
 
-    <section class="section">
-      <div class="container">
-        <div class="section__body">
-          <h2 class="section__title">Хиты Продаж</h2>
-          <div class="section__cards">
 
-            <article class="section__card">
-              <div class="section__card-wrap">
-                <img class="section__card-img" src="assets/img/hd.png" alt=""/>
-              </div>
-              <div class="section__card-bottom">
-                <h3 class="section__card-title">Ароматизатор Criamo</h3>
-                <div class="section__card-footer">
-                  <span class="section__card-price">3.50р</span>
-                  <button class="section__card-btn">Купить</button>
-                </div>
-              </div>
-            </article>
-            <article class="section__card">
+      <section class="catalog">
+        <div class="container">
+          <div class="catalog__body">
+            <div class="catalog__body-item">
+              <h4 class="catalog__body-title">Ингридиенты</h4>
+              <a class="catalog__body-link" href="">В каталог</a>
+            </div>
+            <div class="catalog__body-item">
+              <h4 class="catalog__body-title">Инвентарь</h4>
+              <a class="catalog__body-link" href="">В каталог</a>
+            </div>
+            <div class="catalog__body-item">
+              <h4 class="catalog__body-title">Кондитерская упаковка и подложки
+              </h4>
+              <a class="catalog__body-link" href="">В каталог</a>
+            </div>
+            <div class="catalog__body-item">
+              <h4 class="catalog__body-title">Декор</h4>
+              <a class="catalog__body-link" href="">В каталог</a>
+            </div>
+            <div class="catalog__body-item">
+              <h4 class="catalog__body-title">Праздник</h4>
+              <a class="catalog__body-link" href="">В каталог</a>
+            </div>
+            <div class="catalog__body-item">
+              <h4 class="catalog__body-title">Специальные предложения</h4>
+              <a class="catalog__body-link" href="">В каталог</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+
+
+      <section class="section">
+        <div class="container">
+          <div class="section__body">
+            <h2 class="section__title">Хиты Продаж</h2>
+            <div class="section__cards">
+              <article class="section__card">
                 <div class="section__card-wrap">
-                <img class="section__card-img" src="assets/img/image 167.png" alt=""/>
-              </div>
-              <div class="section__card-bottom">
-                <h3 class="section__card-title">Драже "Жемчуг Микс </h3>
-                <ul class="section__card-info">
+                  <img
+                    class="section__card-img"
+                    src="assets/img/hd.png"
+                    alt=""
+                  />
+                </div>
+                <div class="section__card-bottom">
+                  <h3 class="section__card-title">Ароматизатор Criamo</h3>
+                  <div class="section__card-footer">
+                    <span class="section__card-price">3.50р</span>
+                    <button class="section__card-btn">Купить</button>
+                  </div>
+                </div>
+              </article>
+
+              <article class="section__card">
+                <div class="section__card-wrap">
+                  <img
+                    class="section__card-img"
+                    src="assets/img/image 167.png"
+                    alt=""
+                  />
+                </div>
+                <div class="section__card-bottom">
+                  <h3 class="section__card-title">Драже "Жемчуг Микс</h3>
+                  <ul class="section__card-info">
                     <li>
                       <span class="section__card-left">Фасовка:</span>
-                      <span class="section__card-right">100 мл, 200мл, 500мл</span>
+                      <span class="section__card-right"
+                        >100 мл, 200мл, 500мл</span
+                      >
                     </li>
                     <li>
                       <span class="section__card-left">Тип упаковки:</span>
@@ -70,43 +126,242 @@
                       <span class="section__card-right">Barry Callebout</span>
                     </li>
                     <li>
-                      <span class="section__card-left">Страна производитель:</span>
+                      <span class="section__card-left"
+                        >Страна производитель:</span
+                      >
                       <span class="section__card-right">Швейцария</span>
                     </li>
                     <li>
                       <span class="section__card-left">Условия хранения:</span>
-                      <span class="section__card-right">Хранить при температуре -5C</span>
+                      <span class="section__card-right"
+                        >Хранить при температуре -5C</span
+                      >
                     </li>
-                </ul>
-                <div class="section__card-footer">
-                  <span class="section__card-price">3.50р</span>
-                  <button class="section__card-btn">Купить</button>
+                  </ul>
+                  <div class="section__card-footer">
+                    <span class="section__card-price">3.50р</span>
+                    <button class="section__card-btn">Купить</button>
+                  </div>
                 </div>
+              </article>
 
-            </article>
-            <article class="section__card">
-              <div class="section__card-wrap">
-                <img class="section__card-img" src="assets/img/image 168.png" alt=""/>
-              </div>
-              <div class="section__card-bottom">
-                <h3 class="section__card-title">Драже "Жемчуг Микс</h3>
-                <div class="section__card-footer">
-                  <span class="section__card-price">13.50р</span>
-                  <button class="section__card-btn">Купить</button>
-            </article>
-            <article class="section__card">
+              <article class="section__card">
                 <div class="section__card-wrap">
-                <img class="section__card-img" src="assets/img/image 169.png" alt=""/>
+                  <img
+                    class="section__card-img"
+                    src="assets/img/image 168.png"
+                    alt=""
+                  />
+                </div>
+                <div class="section__card-bottom">
+                  <h3 class="section__card-title">Драже "Жемчуг Микс</h3>
+                  <div class="section__card-footer">
+                    <span class="section__card-price">13.50р</span>
+                    <button class="section__card-btn">Купить</button>
+                  </div>
+                </div>
+              </article>
+
+              <article class="section__card">
+                <div class="section__card-wrap">
+                  <img
+                    class="section__card-img"
+                    src="assets/img/image 169.png"
+                    alt=""
+                  />
+                </div>
+                <div class="section__card-bottom">
+                  <h3 class="section__card-title">Драже "Жемчуг Микс</h3>
+                  <div class="section__card-footer">
+                    <span class="section__card-price">0.50р</span>
+                    <button class="section__card-btn">Купить</button>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="gallery">
+        <div class="container">
+          <h3 class="gallery__title">Галерея вдохновения</h3>
+          <div class="gallery__body">
+            <div class="gallery__swiper">
+              <img
+              class="gallery__img"
+              src="./assets/img/gallery/mobile.png"
+              alt="mobile"
+            />
+            </div>
+            <div class="gallery__content">
+              <div class="gallery__content-text">
+                Мастерицы радуют нас своими шедеврами. Большинство кондитеров
+                остаются с нами на годы.
               </div>
-              <div class="section__card-bottom">
-                <h3 class="section__card-title">Драже "Жемчуг Микс</h3>
-                <div class="section__card-footer">
-                  <span class="section__card-price">0.50р</span>
-                  <button class="section__card-btn">Купить</button>
+              <div class="gallery__content-title">
+                Особо ценятся среди клиенток:
+              </div>
+              <div class="gallery__content-items">
+                <div class="gallery__content-item">
+                  <img src="./assets/img/gallery/Component 1.png" alt="" />Большой
+                  ассортимент
+                </div>
+                <div class="gallery__content-item">
+                  <img src="./assets/img/gallery/Component 3.png" alt="" />Приятные цены
+                </div>
+                <div class="gallery__content-item">
+                  <img src="./assets/img/gallery/Component 2.png" alt="" />Быстрая доставка
+                </div>
+                <div class="gallery__content-item">
+                  <img src="./assets/img/gallery/Component 4.png" alt="" />Подробные
+                  консультации по продукции
+                </div>
+              </div>
+              <div class="gallery__reviews">
+                <div class="gallery__reviews-top">
+                  <div class="gallery__reviews-title">
+                    Средняя оценка клиентов:
+                  </div>
+                  <div class="gallery__reviews-inner">
+                    <img src="./assets/img/gallery/Star 2.png" alt="" />
+                    <img src="./assets/img/gallery/Star 2.png" alt="" />
+                    <img src="./assets/img/gallery/Star 2.png" alt="" />
+                    <img src="./assets/img/gallery/Star 2.png" alt="" />
+                    <img src="./assets/img/gallery/Star 2.png" alt="" />
+                  </div>
+                  <span class="bold">4.8</span>
+                  <span class="nobold">/ 5 |</span>
+                  <span class="google">google</span>
+                </div>
+                <div class="gallery__reviews-bottom">
+                  Независимый рейтинг обслуживания на основе проверенных отзывов.
+                  <a href="#">Прочитать все отзывы</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section__about">
+        <div class="container">
+          <div class="section__about-info">
+            <h2 class="section__about-title">О нас</h2>
+            <p class="section__about-text">
+              <span class="bold">Sweetshop.by</span> – интернет-магазин для
+              любителей и профессионалов кондитерского искусства.
+            </p>
+            <p class="section__about-texts">
+              - В нашем интернет-магазине представлены:
+            </p>
+            <p class="section__about-texts">
+              - Огромный выбор качественных ингредиентов
+            </p>
+            <p class="section__about-texts">
+              - Большой ассортимент надежного и удобного инвентаря
+            </p>
+            <p class="section__about-text">
+              - Широкая линейка красивой и прочной упаковки
+            </p>
+            <p class="section__about-text">
+              Всё это по доступным ценам с доставкой по всей Беларуси. Для
+              выбора предлагаем воспользоваться онлайн каталогом и выбрать все
+              необходимое для создания будущих десертов, выпечки и других
+              кондитерских десертов.
+            </p>
+            <img
+              class="section__about-img"
+              src="assets/img/about/11.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="section__why-padding">
+        <div class="container">
+          <h2 class="section__why-title">Почему именно SWEETSHOP.BY?</h2>
+          <div class="section__why-cards">
+            <article class="section__why-card">
+              <img
+                class="section__why-img"
+                src="assets/img/why_img/1.png"
+                alt=""
+              />
+              <p class="section__why-text">
+                Большой выбор кондитерских ингредиентов, инвентаря и упаковки
+              </p>
+            </article>
+            <article class="section__why-card">
+              <img
+                class="section__why-img"
+                src="assets/img/why_img/4.png"
+                alt=""
+              />
+              <p class="section__why-text">
+                Персональные рекомендации по выбору товара
+              </p>
+            </article>
+            <article class="section__why-card">
+              <img
+                class="section__why-img"
+                src="assets/img/why_img/2.png"
+                alt=""
+              />
+              <p class="section__why-text">
+                Оперативная доставка заказов по всей Беларуси
+              </p>
+            </article>
+            <article class="section__why-card">
+              <img
+                class="section__why-img"
+                src="assets/img/why_img/5.png"
+                alt=""
+              />
+              <p class="section__why-text">Доступные цены</p>
+            </article>
+            <article class="section__why-card">
+              <img
+                class="section__why-img"
+                src="assets/img/why_img/3.png"
+                alt=""
+              />
+              <p class="section__why-text">
+                Оплата товаров любым удобным для вас способом
+              </p>
+            </article>
+            <article class="section__why-card">
+              <img
+                class="section__why-img"
+                src="assets/img/why_img/6.png"
+                alt=""
+              />
+              <p class="section__why-text">
+                Собственное производство подложек из ламинированного МДФ,
+                вырубок из пластика для пряников и печенья, а также топперов из
+                полистирола
+              </p>
             </article>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+
+      <section class="section__brands">
+        <div class="container">
+          <div class="brands__body">
+            <div class="section__brands-title">Бренды</div>
+            <div class="section__brands-inner">
+              <img src="assets/img/brands/111.png" alt="" />
+              <img src="assets/img/brands/222.png" alt="" />
+              <img src="assets/img/brands/333.png" alt="" />
+              <img src="assets/img/brands/444.png" alt="" />
+              <img src="assets/img/brands/555.png" alt="" />
+              <img src="assets/img/brands/666.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
   </body>
 </html>
