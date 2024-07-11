@@ -8,6 +8,7 @@
     flex-direction: column;
     overflow: hidden;
   }
+
   &__card-wrap {  
     flex: 0 0 253px;
     overflow: hidden;
@@ -36,6 +37,7 @@
     line-height: 22px;
     max-width: 200px;
     flex: 1 1 auto;
+    
   }
 
   &__card-footer {
@@ -70,9 +72,10 @@
     margin-top: 12px;
     margin-bottom: 11px;
     flex-direction: column;
+    
   }
 
-  .section__card-info li {
+  .section__li {
     display: flex;
     justify-content: space-between;
     border-top: 1px solid #f2d4ff;
