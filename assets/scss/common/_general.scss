@@ -4,3 +4,12 @@ html, body{
 .wrapper {
     overflow: hidden;
 }
+.container {
+    max-width: 360px;
+    padding: 0 20px;
+    margin: 0 auto;
+    @media(min-width:1340px){
+        max-width: 1210px;
+    }
+   
+}

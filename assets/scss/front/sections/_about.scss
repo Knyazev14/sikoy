@@ -1,8 +1,10 @@
 .section {
     
   &__about {
-    background: #f0e9e7;
-    margin-bottom: 125px;
+    @media (min-width: 1340px) {
+      background: #f0e9e7;
+      margin-bottom: 125px;
+    }
   }
 
   &__about-info {
