@@ -1,7 +1,9 @@
 <section class="section__about">
     <div class="container">
         <div class="section__about-info">
+            <img class="section__about-img" src="assets/img/about/11.png" alt="" />
             <h2 class="section__about-title">О нас</h2>
+            
             <p class="section__about-text">
                 <span class="bold">Sweetshop.by</span> – интернет-магазин для
                 любителей и профессионалов кондитерского искусства.
@@ -24,7 +26,7 @@
                 необходимое для создания будущих десертов, выпечки и других
                 кондитерских десертов.
             </p>
-            <img class="section__about-img" src="assets/img/about/11.png" alt="" />
+           
         </div>
     </div>
 </section>

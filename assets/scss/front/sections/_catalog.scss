@@ -1,17 +1,18 @@
 .catalog {
+  padding-top: 50px;
+  &__body {
+    
+    @media (min-width: 1340px) {
+      background-image: url("/assets/img/section_catalog/2221.png");
+      border-radius: 15px;
+      display: grid;
+      grid-template-columns: repeat(3, 390px);
+      grid-template-rows: repeat(2, 288px);
+      height: 564px;
+      overflow: hidden;
+      background-repeat: no-repeat;
+      background-size: cover;
 
-    &__body {
-        background-image: url("/assets/img/section_catalog/2221.png");
-        display: grid;
-        grid-template-columns: repeat(3, 390px);
-        grid-template-rows: repeat(2, 288px);
-        height: 564px;
-        border-radius: 15px;
-        overflow: hidden;
-        background-repeat: no-repeat;
-        background-size: cover;
-        
+    }
   }
-  
-
 }

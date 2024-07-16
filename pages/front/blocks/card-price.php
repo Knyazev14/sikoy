@@ -2,9 +2,14 @@
     // require "./database.php"; 
 ?> 
 
+<?php
+    $json = file_get_contents('database.json');
+    $data = json_decode($json, true);   
+?>
+
 <article class="section__card">
     <div class="section__card-wrap">
-        <img class="section__card-img" src="assets/img/hd.png" alt="" />
+        <img class="section__card-img" src="assets/img/image 167.png" alt="" />
     </div>
     <div class="section__card-bottom">
         <h3 class="section__card-title">Ароматизатор Criamo</h3>
@@ -17,7 +22,7 @@
 
 <article class="section__card">
     <div class="section__card-wrap">
-        <img class="section__card-img" src="assets/img/image 167.png" alt="" />
+        <img class="section__card-img" src="assets/img/image 169.png" alt="" />
     </div>
     <div class="section__card-bottom">
         <h3 class="section__card-title">Драже "Жемчуг Микс</h3>

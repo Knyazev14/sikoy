@@ -3,3 +3,4 @@
    <!-- Хлебные крошки -->
     <?php require './modules/breadcrumbs.php'; ?> 
 </div>
+<?php require './footer.php'; ?>

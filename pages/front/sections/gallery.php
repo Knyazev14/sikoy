@@ -40,10 +40,10 @@
                             <img src="./assets/img/gallery/Star 2.png" alt="" />
                             <img src="./assets/img/gallery/Star 2.png" alt="" />
                             <img src="./assets/img/gallery/Star 2.png" alt="" />
+                            <span class="bold">4.8</span>
+                            <span class="nobold">/ 5 |</span>
+                            <span class="google">google</span>
                         </div>
-                        <span class="bold">4.8</span>
-                        <span class="nobold">/ 5 |</span>
-                        <span class="google">google</span>
                     </div>
                     <div class="gallery__reviews-bottom">
                         Независимый рейтинг обслуживания на основе проверенных отзывов.

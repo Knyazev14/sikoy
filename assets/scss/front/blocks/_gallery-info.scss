@@ -1,112 +1,140 @@
 .gallery {
-
-    &__content {
-        padding-top: 67px;
-        display: flex;
-        flex-direction: column;
+  &__content {
+    display: flex;
+    flex-direction: column;
+    @media (min-width: 1340px) {
+      padding-top: 67px;
     }
+  }
 
-
-    &__content-text {
-        font-family: Montserrat Alternates;
-        font-size: 15px;
-        line-height: 21px;
-        max-width: 54%;
-        margin-bottom: 23px;
+  &__content-text {
+    font-size: 18px;
+    line-height: 25px;
+    max-width: 54%;
+    margin-bottom: 23px;
+    max-width: 100%;
+    @media (min-width: 1340px) {
+      font-size: 15px;
+      line-height: 21px;
+      max-width: 54%;
+      margin-bottom: 23px;
     }
+  }
 
-    &__content-title {
-        font-family: Comfortaa;
-        font-size: 25px;
-        font-weight: 700;
-        line-height: 35px;
-        margin-bottom: 25px;    
+  &__content-title {
+    font-family: Comfortaa;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+    margin-bottom: 20px;
+    max-width: 65%;
+    @media (min-width: 1340px) {
+      font-size: 25px;
+      line-height: 35px;
+      margin-bottom: 25px;
     }
+  }
 
-
-    &__content-items {
-        font-family: Montserrat Alternates;
-        font-size: 15px;
-        line-height: 21px;
-        margin-bottom: 46px;
-        display: flex;
-        flex-wrap: wrap;
-        row-gap: 20px;
+  &__content-items {
+    font-size: 15px;
+    line-height: 21px;
+    margin-bottom: 46px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    @media (min-width: 1340px) {
+      font-size: 15px;
+      line-height: 21px;
+      margin-bottom: 46px;
+      flex-wrap: wrap;
+      flex-direction: row;
+      row-gap: 20px;
     }
+  }
 
-    &__content-item {
-        display: flex;
-        align-items: center;
-        flex: 0 0 42%;
-        gap: 20px;
+  &__content-item {
+    display: flex;
+    align-items: center;
+    flex: 0 0 42%;
+    gap: 20px;
+  }
 
+  &__reviews {
+    @media (min-width: 1340px) {
     }
+  }
 
-
-    
-
-
-    &__reviews {
+  &__reviews-top {
+    display: flex;
+    flex-direction: column;
+    row-gap: 11px;
+    @media (min-width: 1340px) {
+      align-items: center;
+      flex-direction: row;
     }
+  }
 
-    &__reviews-top {
-        display: flex;
-        align-items: center;
+  &__reviews-title {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 25px;
+    margin-right: 8px;
+    @media (min-width: 1340px) {
+      font-size: 18px;
+      line-height: 25px;
+      margin-right: 8px;
     }
+  }
 
-    &__reviews-title {
-        font-family: Montserrat Alternates;
-        font-size: 18px;
-        font-weight: 600;
-        line-height: 25px;
-        margin-right: 8px;
+  &__reviews-inner {
+    display: flex;
+    align-items: center;
+  }
+
+  &__reviews-inner img {
+    width: 25px;
+    height: 25px;
+    object-fit: contain;
+    object-position: center;
+    @media (min-width: 1340px) {
+      margin-left: 2px;
+      width: 25px;
+      height: 25px;
     }
+  }
 
-    &__reviews-inner {
-        display: flex;
-        align-items: center;
+  &__reviews-bottom {
+    font-size: 13px;
+    line-height: 18.2px;
+    margin-top: 11px;
+    @media (min-width: 1340px) {
+      font-size: 13px;
+      line-height: 18.2px;
+      margin-top: 8px;
     }
-
-    &__reviews-inner img {
-        margin-left: 2px;
-        width: 25px;
-        height: 25px;
-        object-fit: contain;
-        object-position: center;
-    }
-
-    &__reviews-bottom {
-        font-family: Montserrat Alternates;
-        font-size: 13px;
-        line-height: 18.2px;
-    }
-
-
-
-
+  }
+  &__reviews-bottom a {
+    color: #3341BA;
+  }
 }
 
-
 .google {
-    font-family: Montserrat Alternates;
-    font-size: 25px;
-    font-weight: 700;
-    line-height: 35px;
-    margin-left: 13px;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 35px;
+  margin-left: 13px;
 }
 
 .bold {
-    font-family: Montserrat Alternates;
-    font-size: 17px;
-    font-weight: 700;
-    line-height: 23.8px;
-    margin-left: 8px;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 23.8px;
+  margin-left: 8px;
 }
 
 .nobold {
-    font-family: Montserrat Alternates;
-    font-size: 17px;
-    font-weight: 400;
-    line-height: 23.8px;
-    margin-left: 5px;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 23.8px;
+  margin-left: 5px;
 }

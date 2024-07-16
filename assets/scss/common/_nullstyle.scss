@@ -35,7 +35,6 @@ body {
     width: 100%;
     font-size: 100%;
     line-height: 1;
-    font-size: 18px;
     -ms-text-size-adjust: 100%;
     -moz-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
@@ -69,7 +68,8 @@ a:hover {
     text-decoration: 0;
 }
 
-ul li {
+ul li,
+ol li {
     list-style: none;
 }
 
@@ -88,15 +88,18 @@ h6 {
 }
 
 button {
-    background-color: transparent;
+    background: transparent;
     cursor: pointer;
 }
-
+input{
+    background: transparent;
+}
 span {
     display: inline-block;
 }
 
 a {
     display: inline-block;
-    color: black;
+    color: inherit;
+    font-family: inherit;
 }

@@ -1,8 +1,9 @@
 <footer class="footer">
-    <div class="container">
+    
         <div class="footer__header">
             <?php require "./header.php"; ?>
         </div>
+        <div class="container">
         <div class="footer__center">
             <ul class="footer__center-item">
                 <li class="footer__center-list-item"><span class="footer__center-title">Каталог</span></li>
@@ -59,11 +60,11 @@
                 </p>
             </div>
             <div class="footer__rating">
-                <img class="footer__rating-img" src="./assets/img/footer/google.svg" alt="">
+                <img class="footer__rating-img" src="./assets/img/footer/google.svg" alt="google">
                 Rating
                 <div class="footer__rating-star">
                     <span>4.6</span>
-                    <img src="./assets/img/footer/star.svg" alt="">
+                    <img src="./assets/img/footer/star.svg" alt="Звезда">
                     <img src="./assets/img/footer/star.svg" alt="">
                     <img src="./assets/img/footer/star.svg" alt="">
                     <img src="./assets/img/footer/star.svg" alt="">
@@ -81,9 +82,12 @@
                 </div>
             </div>
         </div>
-    </div>
+        </div>
+        
+ 
 </footer>
 </div>
+<script src="./assets/js/app.js"></script>
 </body>
 
 </html>
